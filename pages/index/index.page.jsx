@@ -1,14 +1,19 @@
-import React from 'react';
-import Nav from '../components/Nav';
+import React from "react";
+import Nav from "../components/Nav";
+import Landing from "../components/Landing";
+import WhyUs from "../components/WhyUs";
 
-export { Page }
+export { Page };
 
 function Page() {
   return (
     <>
       <Nav />
-      <div className="mt-[100px]">
+      <Landing />
+      <WhyUs />
+      <div className="w-full">
+
       </div>
     </>
-  )
+  );
 }
