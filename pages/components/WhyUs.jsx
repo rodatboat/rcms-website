@@ -24,7 +24,7 @@ export default function WhyUs() {
           </div>
         </div> */}
 
-        <h2 className="mt-32 mb-8 text-4xl text-center font-header-medium">
+        <h2 className="mt-64 mb-8 text-4xl text-center font-header-medium">
           Why Choose Us?
         </h2>
         <div className="pt-4 w-full grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12 px-6 md:px-12">

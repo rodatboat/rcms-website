@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Landing() {
   return (
-    <div id="#" className="pt-32 h-screen flex flex-row max-w-7xl px-2 mx-auto gap-4 overflow-hidden">
+    <div id="#" className="pt-32 h-screen flex flex-row max-w-7xl px-6 mx-auto gap-4 overflow-hidden">
         <div className="basis-full md:basis-2/3 h-full flex flex-col justify-between">
           <div className="basis-3/4 flex flex-col justify-center gap-2 mt-6">
             <h1 className="font-header-medium text-5xl md:text-6xl text-black">
@@ -19,11 +19,11 @@ export default function Landing() {
               Let's talk
             </button>
           </div>
-          <div className="basis-1/4 flex text-md md:text-lg self-center md:self-start items-end pb-6">
+          <div className="basis-1/4 -mx-2 md:-mx-0 flex text-md md:text-lg self-center md:self-start items-end pb-6">
             <p>Trusted by 100+ property owners in South Florida</p>
           </div>
         </div>
-        <div className="hidden md:block md:basis-1/3 m-8 rounded-3xl overflow-hidden">
+        <div className="hidden md:block md:basis-1/3 m-8 overflow-hidden">
           <img className="h-full object-cover" src="/handyman4.jpg" />
         </div>
       </div>
