@@ -5,10 +5,10 @@ module.exports = {
   theme: {
     colors: {
       primary: {
-        DEFAULT: "#B8FF65",
+        DEFAULT: "#FFE01B",
       },
       secondary: {
-        DEFAULT: "#aaa",
+        DEFAULT: "#1216F2",
       },
       white: {
         DEFAULT: "#fff",
@@ -19,10 +19,16 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        sans: ["Larsseit-Regular", "sans-serif"],
+        sans: ["Coco-Sharp-Regular", "sans-serif"],
       },
     },
   },
   plugins: [],
 }
 
+// primary: {
+//   DEFAULT: "#FFE01B",
+// },
+// secondary: {
+//   DEFAULT: "#1216F2",
+// },

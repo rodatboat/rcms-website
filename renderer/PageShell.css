@@ -3,6 +3,80 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'TT Firs Neue Regular';
+  src: url('/TT Firs Neue Regular.ttf') format('truetype');
+  /* font-display: swap; */
+}
+
+@font-face {
+  font-family: 'TT Firs Neue Medium';
+  src: url('/TT Firs Neue Medium.ttf') format('truetype');
+  /* font-display: swap; */
+}
+
+@font-face {
+  font-family: 'TT Firs Neue Bold';
+  src: url('/TT Firs Neue Bold.ttf') format('truetype');
+  /* font-display: swap; */
+}
+
+@font-face {
+  font-family: 'Coco-Sharp-Regular';
+  src: url('/Coco-Sharp-Regular.ttf') format('truetype');
+  /* font-display: swap; */
+}
+
+@font-face {
+  font-family: 'Coco-Sharp-Bold';
+  src: url('/Coco-Sharp-Bold.ttf') format('truetype');
+  /* font-display: swap; */
+}
+
+@layer {
+  html {
+    @apply bg-white text-secondary
+  }
+}
+
+@layer base {
+
+  .font-bold {
+    font-family: 'Coco-Sharp-Bold', sans-serif;
+  }
+
+  .font-header {
+    font-family: 'TT Firs Neue Regular', sans-serif !important;
+  }
+
+  .font-header-medium {
+    font-family: 'TT Firs Neue Medium', sans-serif !important;
+  }
+
+  .font-header-bold {
+    font-family: 'TT Firs Neue Bold', sans-serif !important;
+  }
+}
+
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
 body {
   margin: 0;
   font-family: sans-serif;
