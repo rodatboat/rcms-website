@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Landing() {
   return (
-    <div id="#" className="pt-32 h-screen flex flex-row max-w-7xl px-6 mx-auto gap-4 overflow-hidden">
+    <div id="#" className="pt-32 h-screen flex flex-row px-6 md:px-16 mx-auto gap-8 overflow-hidden">
         <div className="basis-full md:basis-2/3 h-full flex flex-col justify-between">
           <div className="basis-3/4 flex flex-col justify-center gap-2 mt-6">
             <h1 className="font-header-medium text-5xl md:text-6xl text-black">
