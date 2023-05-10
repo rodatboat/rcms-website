@@ -2,7 +2,7 @@ import React from "react";
 
 export default function OurServices() {
   return (
-    <div className="w-full mt-64">
+    <div id="services" className="w-full mt-32 pt-32">
       <h2 className="mb-4 text-4xl text-center font-header-medium">
         Our Services
       </h2>
@@ -10,10 +10,10 @@ export default function OurServices() {
         No job is too big or too small for us. We got you covered.
       </h3>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 max-w-6xl my-16 gap-x-12   gap-y-12 px-6 md:px-auto mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 max-w-6xl my-16 gap-x-12 gap-y-12 px-6 md:px-auto mx-auto [&_img]:h-12 [&_img]:mt-2">
         <div className="inline-flex gap-4">
           <img
-            className="hidden md:block self-center h-20"
+            className="hidden md:block h-20"
             src="/handyman-services.svg"
           />
           <div className="text-center md:text-left">
@@ -31,7 +31,7 @@ export default function OurServices() {
 
         <div className="inline-flex gap-4">
           <img
-            className="hidden md:block self-center h-20"
+            className="hidden md:block h-20"
             src="/electrical.svg"
           />
           <div className="text-center md:text-left">
@@ -49,7 +49,7 @@ export default function OurServices() {
 
         <div className="inline-flex gap-4">
           <img
-            className="hidden md:block self-center h-20"
+            className="hidden md:block h-20"
             src="/plumbing.svg"
           />
           <div className="text-center md:text-left">
@@ -67,7 +67,7 @@ export default function OurServices() {
 
         <div className="inline-flex gap-4">
           <img
-            className="hidden md:block self-center h-20"
+            className="hidden md:block h-20"
             src="/painting.svg"
           />
           <div className="text-center md:text-left">
@@ -85,7 +85,7 @@ export default function OurServices() {
 
         <div className="inline-flex gap-4">
           <img
-            className="hidden md:block self-center h-20"
+            className="hidden md:block h-20"
             src="/fire-and-water-damage.svg"
           />
           <div className="text-center md:text-left">
@@ -103,7 +103,7 @@ export default function OurServices() {
 
         <div className="inline-flex gap-4">
           <img
-            className="hidden md:block self-center h-20"
+            className="hidden md:block h-20"
             src="/heating-and-ac.svg"
           />
           <div className="text-center md:text-left">
